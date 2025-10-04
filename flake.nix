@@ -18,6 +18,7 @@
           buildInputs = [
             pkgs.pixi
             pkgs.docker
+            pkgs.supabase-cli
           ];
 
           shellHook = ''
