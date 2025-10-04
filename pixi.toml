@@ -8,3 +8,17 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
+python = ">=3.11,<3.12"
+deno = "*"
+supabase = "*"
+
+[tool.supabase]
+# just an example; CLI will read your local config.json by default
+project-id = "your-supabase-project-id"
+
+
+[tasks]
+# Define short commands
+run-server = "deno task start"
+test = "pytest"
+start-supabase = "supabase start"
