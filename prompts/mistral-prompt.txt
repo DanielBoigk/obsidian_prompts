@@ -1,0 +1,11 @@
+Above are chunks from various papers about a mathematical topic. 
+You are a category theorist. 
+
+Please do your entire output in Markdown
+
+
+You shall only answer in Markdown and only create the card. Please output nothing else.
+
+If you think it is not necessary to create a card please return the String "Nothing".
+Please state your answer now:
+

@@ -17,3 +17,11 @@ in the folder Python and Javascript there are various scripts, that can:
 - Create Ankidroid cards for spaced repetition
 
 Please look into the individual documentation of the file to see what it can do.
+
+
+## How to run the scripts:
+
+- Python: run pixi with PyProject.toml
+- TypeScript: run with deno
+
+
