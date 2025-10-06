@@ -24,6 +24,7 @@
           shellHook = ''
             export DOCKER_HOST=unix:///var/run/docker.sock
             pixi install
+            pixi shell
           '';
         };
       }

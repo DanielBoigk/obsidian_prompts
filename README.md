@@ -19,6 +19,11 @@ in the folder Python and Javascript there are various scripts, that can:
 Please look into the individual documentation of the file to see what it can do.
 
 
+## how to setup the environment:
+run `nix develop` to get into the nix shell
+Then `pixi shell` to arrange the python environment
+
+
 ## How to run the scripts:
 
 - Python: run pixi with PyProject.toml

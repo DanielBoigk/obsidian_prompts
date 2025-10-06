@@ -9,8 +9,11 @@ version = "0.1.0"
 [dependencies]
 python = "*"
 deno = "*"
+pypdf = ">=6.1.1,<7"
+python-dotenv = ">=1.1.1,<2"
 
 [pypi-dependencies]
-cocoindex = "*"
+cocoindex = { version = "*", extras = ["embeddings"] }
 kuzu = "*"
+marker-pdf = "*"
 
