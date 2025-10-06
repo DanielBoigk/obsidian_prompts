@@ -20,13 +20,12 @@ Please look into the individual documentation of the file to see what it can do.
 
 
 ## how to setup the environment:
-run `nix develop` to get into the nix shell
-Then `pixi shell` to arrange the python environment
+Just run `nix develop` to get into the nix/pixi shell
 
 
 ## How to run the scripts:
 
-- Python: run pixi with PyProject.toml
-- TypeScript: run with deno
+- Python: pixi already sets up the environment: just `python filename.py --additional_arguments`
+- TypeScript: `run --arguments` with deno
 
 
