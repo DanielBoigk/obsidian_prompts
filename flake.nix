@@ -23,6 +23,8 @@
 
           shellHook = ''
             export DOCKER_HOST=unix:///var/run/docker.sock
+            export COCOINDEX_DATABASE_URL="postgresql://cocoindex:cocoindex@localhost:5432/cocoindex"
+            export CUDA_VISIBLE_DEVICES=""  # Force CPU for PyTorch Delete or comment if you unlike me have a compatible GPU
             pixi install
             pixi shell
           '';
